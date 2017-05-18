@@ -1,0 +1,61 @@
+! Load With:
+! xrdb ~/.Xresources
+! Query With:
+! xrdb -query -all
+
+URxvt*termName: rxvt-unicode-256color
+
+!## Rxvr-Unicode Setup ##
+! transparency - true or false (default)
+URxvt*transparent: true
+
+! shading - 0 to 99 darkens, 101 to 200 lightens.
+URxvt*shading: 15
+
+! Underlining
+URxvt*colorUL:  yellow
+URxvt*underlineColor:  yellow
+
+! Never initialise any perl stuff
+URxvt*perl-ext:
+URxvt*perl-ext-common:
+
+! scrollback buffer lines - 65535 is max on most machines (64 is default)
+URxvt*saveLines: 12000
+
+! font color (default is black)
+URxvt*foreground: White
+
+! background color (prior to tinting) (default is white)
+URxvt*background: Black
+
+Xft.autohint: true
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+!Xft.dpi: 96
+!Xft.rgba: rgb
+!Xft.lcdfilter: lcddefault
+
+!urxvt*skipBuiltinGlyphs: true
+
+! scrollbar - true (default) or false
+URxvt*scrollBar: false
+
+! scrollbar position - left=false (default) or right=true
+!URxvt*scrollBar_right: true
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: plain
+
+! Replace blue folder colors with a lighter shade
+URxvt*color4: RoyalBlue
+URxvt*color12: RoyalBlue
+
+! fc-list to get all fonts
+!URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=15
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:style=Regular:pixelsize=15
+
+
+! Reduce font spacing
+!URxvt.letterSpace: -1
