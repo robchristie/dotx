@@ -1,0 +1,2 @@
+# dotx
+X configuration
